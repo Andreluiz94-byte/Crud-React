@@ -1,0 +1,126 @@
+/* crud.css */
+
+.App {
+    text-align: center;
+}
+
+h1 {
+    margin-top: 40px;
+    font-size: 28px;
+}
+
+.form-container {
+    width: 400px;
+    margin: 0 auto;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+label {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.input-small {
+    width: 100%;
+    max-width: 300px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
+
+.select-especialidade {
+    width: 100%;
+    max-width: 320px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+button:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+}
+
+.button-secondary {
+    background-color: #337ab7;
+}
+
+.button-secondary:hover {
+    background-color: #286090;
+}
+
+.button-secondary:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+}
+
+.medicos-cadastrados {
+    margin-top: 40px;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table th,
+.table td {
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+.table th {
+    background-color: #f2f2f2;
+}
+
+.table td:first-child {
+    font-weight: bold;
+}
+
+.table td:last-child {
+    text-align: center;
+}
+
+.table td button {
+    padding: 5px 10px;
+    background-color: #d9534f;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.table td button:hover {
+    background-color: #c9302c;
+}
